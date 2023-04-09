@@ -1,0 +1,54 @@
+@font-face {
+	font-family: "goblin";
+	src: url("AGoblinAppears-o2aV.woff") format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+.contact-tab {
+  font-size: x-small;
+  max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-tab h2 {
+    font-family: "goblin", sans-serif;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .contact-tab form {
+    font-family: "goblin", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-tab input,
+  .contact-tab textarea {
+    font-family: "goblin", sans-serif;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.2em;
+  }
+  
+  .contact-tab input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .contact-tab input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  .contact-tab input:focus,
+  .contact-tab textarea:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
